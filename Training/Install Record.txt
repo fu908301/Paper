@@ -1,0 +1,21 @@
+1. thesis.sty
+
+2. the12.sty
+
+3. thesistitlepage.sty
+
+4. fancybox.sty
+
+5. titlesec.sty
+
+6. ref.bib
+
+7. nie3tr.bst
+
+\bibliography{ref}
+\bibliographystyle{nie3tr}
+
+* Fineprint
+
+* Bullzip PDF Printer
+

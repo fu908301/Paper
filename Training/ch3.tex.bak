@@ -1,0 +1,42 @@
+% File name: ChapterForm.tex
+%
+% Author: your's name
+%
+% Creation: 2002/06/25
+%
+% !!!: The chapter form only can be used with the "thesis" document style!!!
+\chapter{Method}
+\vspace*{30pt} In this section, we present the time-position join
+(\textsl{TPJ}) method which improves the suffix tree method in the
+first phase of Rasheed \textsl{et al}.¡¦s approach.
+
+\section{Ch3 Ch3}
+In Phase 1 of Rasheed \textsl{et al}.¡¦s approach for periodicity
+mining in time series databases, it uses a revised version of the
+suffix tree as the data structure to generate candidate patterns.
+
+\section{Method}
+For the input \textsl{abcabbabb\$} as shown in Figure
+\ref{licesuffixtree}, it needs to construct a suffix tree of 14
+nodes as shown in Figure \ref{licesuffixtreebottumup}. However, in
+fact, patterns \textsl{ab}(0, 3, 6), \textsl{abb}(3, 6),
+\textsl{b}(1, 4, 5, 7, 8), \textsl{bb}(4, 7) are candidate patterns.
+
+\begin{figure}
+\begin{center}
+\centerline{\psfig{figure=licesuffixtree.eps,width=8cm}}
+%\vspace{4cm}
+\caption{The suffix tree for the string \textsl{abcabbabb\$}}
+\label{licesuffixtree}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\centerline{\psfig{figure=licesuffixtreebottumup.eps,width=8cm}}
+%\vspace{4cm}
+\caption{Suffix tree for string \textsl{abcabbabb\$} after bottum-up
+traversal}
+\label{licesuffixtreebottumup}
+\end{center}
+\end{figure}

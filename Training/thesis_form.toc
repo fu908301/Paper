@@ -1,0 +1,17 @@
+\contentsline {chapter}{LIST OF FIGURES}{ii}
+\contentsline {chapter}{LIST OF TABLES}{iii}
+\contentsline {chapter}{\numberline {1.} Introduction}{1}
+\contentsline {chapter}{\numberline {2.} Related Work}{2}
+\contentsline {section}{\numberline {2.1}Ch2 Ch2}{2}
+\contentsline {subsection}{\numberline {2.1.1}Related}{2}
+\contentsline {subsubsection}{\numberline {2.1.1.1}Work}{3}
+\contentsline {section}{\numberline {2.2}Related Work}{3}
+\contentsline {chapter}{\numberline {3.} Method}{4}
+\contentsline {section}{\numberline {3.1}Ch3 Ch3}{4}
+\contentsline {section}{\numberline {3.2}Method}{4}
+\contentsline {chapter}{\numberline {4.} Performance}{6}
+\contentsline {section}{\numberline {4.1}Ch4 Ch4}{6}
+\contentsline {subsection}{\numberline {4.1.1}Apriori Algorithm}{6}
+\contentsline {section}{\numberline {4.2}Performance}{7}
+\contentsline {chapter}{\numberline {5.} Conclusion}{10}
+\contentsline {chapter}{BIBLIOGRAPHY}{11}

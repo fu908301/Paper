@@ -1,0 +1,55 @@
+% File name: ChapterForm.tex
+%
+% Author: your's name
+%
+% Creation: 2002/06/25
+%
+% !!!: The chapter form only can be used with the "thesis" document style!!!
+\chapter{Related Work}
+\vspace*{30pt} Some applications require that periodic patterns must
+satisfy two extra conditions including \emph{Min\_count} and
+\emph{Max\_distance} \cite{Anwar2015}. Parameter \emph{Min\_count}
+is used to limit that a pattern needs to repeat itself at least a
+certain number of times to demonstrate its significance and
+periodicity. Parameter \emph{Max\_distance} is to limit that the
+distance between the same two patterns has to be within some
+reasonable bound \cite{AA2004, Patnaik2008, Coan2003}.
+
+\section{Ch2 Ch2}
+Usually, \emph{Min\_count} is set to be a value greater than or
+equal to 2, and \emph{Max\_distance} is set to be \emph{N}/2, where
+\emph{N} is the length of the time series data. To provide accurate
+period patterns for some applications, the length of the period
+pattern may be limited \cite{Pippa2016}. Moreover, to provide
+efficient processing, some pruning techniques are preferred
+\cite{Patnaik2008}.
+
+\subsection{Related}
+For the example of the time series data \emph{abcabdabe}, both
+patterns \emph{ab} and a start in positions 0, 3, 6. In this case,
+we usually prefer only a pattern \emph{ab}. That is, a pattern
+\emph{a} is pruned since it is the subset of a patter \emph{ab} in
+the same starting position. Similarly, a pattern \emph{b} is pruned
+since a pattern \emph{b} is the subset of patter \emph{ab} in the
+same ending positions.
+
+\subsubsection{Work}
+In the past of the structure, the suffix tree is a compact version
+of the suffix tries \cite{Pablo2006}. A suffix tree of length
+\emph{m} is a tree with the following properties: (1) Each tree edge
+is labelled by a substring of \emph{S}. (2) Each internal node has
+at least 2 children. (3) The number of leaves is m. (4) Each suffix
+has its unique leaf. Furthermore, it is well established in exact
+string matching and a good introduction to use in biology (for the
+example, in constructing and searching the DNA sequence)
+\cite{Patnaik2008}.
+
+\section{Related Work}
+A suffix tree indexes a string of length \emph{N} which means that
+it has \emph{N} leaf nodes. When the size of the sequence database
+increases, the storage space of a suffix tree also increases. To
+reduce the storage space, the suffix array is proposed which is
+basically a sorting list of all the suffixes of strings and only the
+sorting list is stored \cite{AT2009}. The main advantage of the
+suffix array over the suffix tree is that the suffix array uses
+three to five times less space.

@@ -1,0 +1,62 @@
+% File name: ThesisForm.tex
+%
+% Author: your's name
+%
+% Creation: 2002/06/25
+\documentstyle[thesistitlepage,12pt,psfig,fancybox,titlesec]{thesis}
+\renewcommand{\thechapter}{\arabic{chapter}}
+\textwidth=6.0truein \topmargin=-1cm
+
+
+
+% Replace "Design and Analysis of Nearest Neighbor Search Strategies" with the
+% thesis name of yours, please.
+% Title name
+\title{A Time-Position Join Method for Periodicity Mining in Time Series Databases}
+
+
+
+% Replace the cute classmate "Chia-En Li" with your name, please.
+% author name
+\author{Chia-En Li}
+
+
+
+\date{September 2017}
+%-----------------------------------------
+\begin{document}
+\maketitle \clearpage \pagenumbering{roman} \pagestyle{plain}
+%\include{abstract}
+\tableofcontents \listoffigures \listoftables
+\pagenumbering{arabic} \pssilent \pagestyle{plain} \doublespace
+%---------------------------------------------------
+\setlength{\baselineskip}{4ex}
+\newtheorem{definition}{Definition}
+\renewcommand{\thedefinition}{\arabic{definition}.}
+\newtheorem{theorem}{Theorem}
+\renewcommand{\thetheorem}{\arabic{theorem}.}
+\newtheorem{lemma}{Lemma}
+\renewcommand{\thelemma}{\arabic{lemma}.}
+\newcounter{ec}{}
+\newcommand{\ecc}{\stepcounter{ec} \arabic{ec}}
+
+%\include{ch1}
+
+%\include{ch2}
+
+%\include{ch3}
+
+%\include{ch4}
+
+%\include{ch5}
+%=============
+% Reference
+%=============
+\bibliography{ref}
+\bibliographystyle{nie3tr}
+%=============
+% Appendix A
+%=============
+\appendix
+%\include{Appendix}
+\end{document}

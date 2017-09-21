@@ -1,0 +1,68 @@
+% File name: ChapterForm.tex
+%
+% Author: your's name
+%
+% Creation: 2002/06/25
+%
+% !!!: The chapter form only can be used with the "thesis" document style!!!
+\chapter{Performance}
+\vspace*{30pt} In this section, we compare the performance of our
+time-position join with the Phase 1 of Rasheed \emph{et al}.'s
+approach. Our experiments are performed on an Intel(R) Core(TM) i7
+2.93GHZ CPU computer with 4GB memory, running Windows 7 Ultimate
+version, and coded in JAVA. We generate synthetic data by different
+parameters.
+
+\section{Ch4 Ch4}
+The parameters are controlled during data generation including the
+number of patterns, the length of patterns and threshold. During our
+experiments, we will change one parameter at a time. For the
+synthetic data, the parameter \emph{Ps} means the the number of the
+patterns and the parameter \emph{Ls} means the length of the
+patterns. Our performance measure is the processing time. Table
+\ref{Abbre} summarizes the abbreviations for all electrode
+positions.
+
+\section{Performance}
+First, we set \emph{Ps} $=$ 1000, \emph{Ls} $=$ 10000 with threshold
+between 3 and 7. Figure \ref{SCANS1} shows the comparison of the
+processing time with different threshold. From Figure \ref{SCANS2},
+we show that as the threshold increases, the processing time of our
+method is faster than Rasheed \emph{et al}.'s approach. The reason
+is that we can prune some patterns when the count does not satisfy
+the threshold in the modified adjacent matrix.
+
+\begin{figure}
+\begin{center}
+\centerline{\psfig{figure=SCANS1.eps,width=12cm}}
+%\vspace{4cm}
+\caption{SCANS1} \label{SCANS1}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\centerline{\psfig{figure=SCANS2.eps,width=12cm}}
+%\vspace{4cm}
+\caption{SCANS2} \label{SCANS2}
+\end{center}
+\end{figure}
+
+\begin{table}[]
+\centering \caption{Abbreviation and full names.} \vspace*{12pt}
+\label{Abbre}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Abbreviation}   & \textbf{Full Name} \\
+\hline Fp               & Frontal Pole       \\
+\hline F                & Frontal lobe       \\
+\hline O                & Occipital lobe     \\
+\hline T                & Temporal lobe      \\
+\hline P                & Parietal lobe      \\
+\hline C                & Central            \\
+\hline A                & Ear                \\
+\hline Fz               & Mid frontal        \\
+\hline Cz               & Mid line           \\
+\hline
+\end{tabular}
+\end{table}

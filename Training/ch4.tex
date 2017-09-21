@@ -1,0 +1,83 @@
+% File name: ChapterForm.tex
+%
+% Author: your's name
+%
+% Creation: 2002/06/25
+%
+% !!!: The chapter form only can be used with the "thesis" document style!!!
+\chapter{Performance}
+\vspace*{30pt} In this section, we compare the performance of our
+time-position join with the Phase 1 of Rasheed \emph{et al}.'s
+approach. Our experiments are performed on an Intel(R) Core(TM) i7
+2.93GHZ CPU computer with 4GB memory, running Windows 7 Ultimate
+version, and coded in JAVA. We generate synthetic data by different
+parameters.
+
+\section{Ch4 Ch4}
+The parameters are controlled during data generation including the
+number of patterns, the length of patterns and threshold. During our
+experiments, we will change one parameter at a time. For the
+synthetic data, the parameter \emph{Ps} means the the number of the
+patterns and the parameter \emph{Ls} means the length of the
+patterns. Our performance measure is the processing time. Table
+\ref{Abbre} summarizes the abbreviations for all electrode
+positions.
+
+\subsection{Apriori Algorithm} 
+Starting from the root node, the subset function
+finds all the candidates contained in a transaction
+t as follows. If we are at a leaf, we find which of
+the itemsets in the leaf are contained in t and add
+references to them to the answer set. If we are at an
+interior node and we have reached it by hashing the
+item i, we hash on each item that comes after i in t
+and recursively apply this procedure to the node in
+the corresponding bucket. For the root node, we hash
+on every item in t.
+\par
+To see why the subset function returns the desired
+set of references, consider what happens at the root
+node. For any itemset c contained in transaction t, the first item of c must be in t. At the root, by hashing on every item in t, we ensure that we only ignore itemsets that start with an item not in t. Similar arguments apply at lower depths. The only additional factor is that, since the items in any itemset are ordered, if we reach the current node by hashing the item i, we only need to consider the items in t that occur after i \cite{Agrawal1994algorithms}.
+
+\section{Performance}
+First, we set \emph{Ps} $=$ 1000, \emph{Ls} $=$ 10000 with threshold
+between 3 and 7. Figure \ref{SCANS1} shows the comparison of the
+processing time with different threshold. From Figure \ref{SCANS2},
+we show that as the threshold increases, the processing time of our
+method is faster than Rasheed \emph{et al}.'s approach. The reason
+is that we can prune some patterns when the count does not satisfy
+the threshold in the modified adjacent matrix.
+
+\newpage
+
+\begin{figure}
+\begin{center}
+\centerline{\psfig{figure=SCANS1.eps,width=12cm}}
+%\vspace{4cm}
+\caption{Scansone} \label{SCANS1}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\centerline{\psfig{figure=SCANS2.eps,width=12cm}}
+%\vspace{4cm}
+\caption{Scanstwo} \label{SCANS2}
+\end{center}
+\end{figure}
+
+\newpage
+
+\begin{table}[]
+\centering \caption{Apriori Sample} \vspace*{12pt}
+\label{Abbre}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{TID}   & \textbf{Items} \\
+\hline 100              & 1 3 4       \\
+\hline 200              & 2 3 5       \\
+\hline 300              & 1 2 3 5     \\
+\hline 400              & 2 5         \\
+\hline
+\end{tabular}
+\end{table}

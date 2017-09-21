@@ -1,0 +1,109 @@
+% thesistitlepage.sty  -- John Riedl
+\def\@thesistitlemedskip{0.25in}
+\def\@thesistitlebigskip{0.50in}
+
+\def\maketitle{
+\begin{titlepage}
+  %
+  % -- the thesis office doesn't like thanks on title page.  Put it in
+  % -- the acknowledgments.  This is here so you don't have to change
+  % -- your titlepage when converting from report style.
+  %
+  \def\thanks##1{\typeout{Warning: `thanks' deleted from thesis titlepage.}}
+  \let\footnotesize\small \let\footnoterule\relax \setcounter{page}{1}
+  \vspace*{60pt}
+  \lineskip 1em
+  \begin{center}
+    \expandafter\uppercase\expandafter{\@title} \\[\@thesistitlebigskip]
+    A Thesis \\
+    Submitted to the Faculty \\[\@thesistitlemedskip]
+    of \\[\@thesistitlemedskip]
+    National Sun Yat-sen University \\[\@thesistitlemedskip]
+    by \\[\@thesistitlemedskip]
+    \@author \\[\@thesistitlebigskip]
+    In Partial Fulfillment of the \\
+    Requirements for the Degree \\[\@thesistitlemedskip]
+    of \\[\@thesistitlemedskip]
+    Master of Science \\[\@thesistitlebigskip]
+    \@date
+  \end{center}
+\end{titlepage}
+
+\setcounter{footnote}{0} \let\thanks\relax
+\gdef\@thanks{}\gdef\@author{}\gdef\@title{}\let\maketitle\relax
+
+}
+
+% The abstract should begin with two single-spaced lines describing
+% the author and title in a standard format.  After these lines comes
+% a bunch of double spaced text to make up the standard abstract.  The
+% text after the abstract probably should be doublespaced again.
+
+\def\abstract{
+  \pagebreak     % abstract should start new page
+  % 89.04.15 (50pt --> 20pt)
+  %\null\vspace*{10pt}
+  \addcontentsline{toc}{chapter}{ABSTRACT (ENGLISH)}
+  \relax\markboth{ABSTRACT (ENGLISH)}{ABSTRACT (ENGLISH)}
+  \begin{center}
+    {\bf ABSTRACT (ENGLISH)}
+  \end{center}
+  \vspace{2em}
+  \singlespace
+}
+\def\endabstract{\par\newpage\doublespace}
+
+\def\thesisvalidation{
+  \pagebreak     % thesisvalidation should start new page
+  % 89.04.15 (50pt --> 20pt)
+  %\null\vspace*{10pt}
+  \addcontentsline{toc}{chapter}{THESIS VALIDATION LETTER}
+  \relax\markboth{THESIS VALIDATION LETTER}{THESIS VALIDATION LETTER}
+  \begin{center}
+    {\bf THESIS VALIDATION LETTER}
+  \end{center}
+  \vspace{2em}
+  \singlespace
+}
+\def\endthesisvalidation{\par\newpage\doublespace}
+
+\def\acknowledgement{
+  \pagebreak     % acknowledgement should start new page
+  % 89.04.15 (50pt --> 20pt)
+  %\null\vspace*{10pt}
+  \addcontentsline{toc}{chapter}{ACKNOWLEDGEMENTS}
+  \relax\markboth{ACKNOWLEDGEMENTS}{ACKNOWLEDGEMENTS}
+  \begin{center}
+    {\bf ACKNOWLEDGEMENTS}
+  \end{center}
+  \vspace{2em}
+  \singlespace
+}
+\def\endacknowledgement{\par\newpage\doublespace}
+
+\def\abstractC{
+  \pagebreak     % abstract should start new page
+  % 89.04.15 (50pt --> 20pt)
+  %\null\vspace*{10pt}
+  \addcontentsline{toc}{chapter}{ABSTRACT (CHINESE)}
+  \relax\markboth{ABSTRACT (CHINESE)}{ABSTRACT (CHINESE)}
+  \begin{center}
+    {\bf ABSTRACT (CHINESE)}
+  \end{center}
+  \vspace{2em}
+  \singlespace
+}
+\def\endabstractC{\par\newpage\doublespace}
+
+\def\acknowledgments{
+  \pagebreak     % acknowledgments should start new page
+  \null\vspace*{50pt}
+  \addcontentsline{toc}{chapter}{ACKNOELWDGMENTS}
+  \relax\markboth{ACKNOELWDGMENTS}{ACKNOELWDGMENTS}
+  \begin{center}
+    {\bf ACKNOELWDGMENTS}
+  \end{center}
+  \vspace{2em}
+  \singlespace
+}
+\def\endacknowledgments{\par\newpage\doublespace}

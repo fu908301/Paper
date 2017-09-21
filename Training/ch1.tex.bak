@@ -1,0 +1,19 @@
+% File name: ChapterForm.tex
+%
+% Author: your's name
+%
+% Creation: 2002/06/25
+%
+% !!!: The chapter form only can be used with the "thesis" document style!!!
+\chapter{Introduction}
+\vspace*{30pt} Data mining is the process of discovering new
+patterns from large datasets. It finds useful information from data
+in databases [1]. Periodicity mining is used for predicting trends
+in time series data [2, 3, 4]. Applications of periodicity mining in
+time series data include temperature, stock prices depicted in the
+financial market, gene expression data analysis, etc [5, 6]. In
+general, there are three types of periodic patterns which can be
+detected in the time series data [4]: (1) symbol periodicity, (2)
+sequence periodicity or partial periodic patterns, and (3) segment
+or full-cycle periodicity. (Note that the time series data is mostly
+discretized before it is analyzed.)

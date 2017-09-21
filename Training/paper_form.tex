@@ -1,0 +1,141 @@
+% File name: PaperForm.tex
+%
+% Author: your's name
+%
+% Creation: 2002/06/25
+
+\documentstyle[12pt,psfig]{article}
+\voffset -1cm
+\hoffset -0.5in
+\textheight 8.7in
+\textwidth 6.4in
+\setlength{\baselineskip}{5ex}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0cm}
+
+\begin{document}
+\bibliographystyle{unsrt}
+\begin{titlepage}
+\addtolength{\textwidth}{+.1\textwidth}
+\begin{center}
+{\bf
+
+
+
+% Replace "Snoopy database" with the name of your paper,please.
+% the paper name
+{\LARGE Snoopy Database}
+% Replace ""NSC-87-2213-E-110-014" with yours, please.
+% If you did not know the number, ask your advisor politely, please.
+% NSC number
+\footnote[1]{This research was supported in part by the National
+Science Council of Republic of China under Grant No.
+NSC-87-2213-E-110-014.} }
+
+
+
+\vspace{0.5cm}
+
+% Replace "Some student's name" with yours, please.
+% The authors name
+Ye-In Chang and Some student's name
+
+\vspace{0.5cm}
+
+
+
+\begin{tabular}{l}
+\setlength{\baselineskip}{18pt}
+Dept.~of Computer Science and Engineering\\
+\hspace{1.1cm}National Sun Yat-Sen University\\
+\hspace{2.7cm} Kaohsiung, Taiwan \\
+\hspace{2.9cm}Republic of China \\
+\hspace{0.6cm}\{E-mail: changyi@cse.nsysu.edu.tw\}\\
+\hspace{1cm} \{Tel: 886-7-5252000 (ext.~4334)\}\\
+ \hspace{2.3cm}\{Fax: 886-7-5254301\}\\
+\end{tabular}
+
+\end{center}
+
+
+
+\begin{center}
+{\large Abstract}
+\end{center}
+
+% The content of abstract is written here.
+
+\vspace{1cm}
+\noindent
+
+
+
+% Replace "2-D strings, access methods, iconic index, similarity retrieval" with yours, please.
+% keywords-comma-list (written alphabetically)
+({\em Keywords}: 2-D strings, access methods, iconic index, similarity retrieval)
+
+\end{titlepage}
+
+
+
+\newtheorem{definition}{Definition}
+\renewcommand{\thedefinition}{\arabic{definition}.}
+\newtheorem{theorem}{Theorem}
+\renewcommand{\thetheorem}{\arabic{theorem}.}
+\newtheorem{lemma}{Lemma}
+\renewcommand{\thelemma}{\arabic{lemma}.}
+\newcounter{ec}{}
+\newcommand{\ecc}{\stepcounter{ec} \arabic{ec}}
+
+\setlength{\baselineskip}{4ex} \setlength{\parskip}{0pt}
+\setlength{\parindent}{0.5cm}
+
+
+
+
+
+% Beginning of the body of your paper
+\section{Introduction}
+
+
+
+% Beginning of the bibliography
+\setlength{\baselineskip}{12pt}
+\begin{thebibliography}{99}
+
+
+
+% An example, replace it with yours, please.
+\bibitem{abat99} A.~F.~Abate, M.~Nappi, G.~Tortora, and M.~Tucci,
+``IME: An Image Management Environment with Content-Based Access,''
+{\em Image and Vision Computing,}
+Vo.~17, No.~13, pp.~967--980, Nov.~1999.
+
+
+
+\end{thebibliography}
+
+
+
+% Beginning of the appendix
+\newpage
+\begin{center}
+{\Large \underline{Appendix A}}
+
+
+
+\vspace{0.5cm}
+
+
+
+% Replace "Possible Cases in Different Categories" with yours, please.
+% Appendix name
+Possible Cases in Different Categories
+
+
+
+\end{center}
+\vspace{0.5cm}
+
+
+\end{document}

@@ -1,0 +1,71 @@
+\begin{thebibliography}{10}
+
+\bibitem{AA2004}
+A.~A. Abdul-latif, I.~Cosic, D.~K. Kumar, B.~Polus, and C.~D. Costa, ``{P}ower
+  {C}hanges of {EEG} {S}ignals {A}ssociated with {M}uscle {F}atigue: {T}he
+  {R}oot {M}ean {S}quare {A}nalysis of {EEG} {B}ands,'' {\em Proceedings of
+  Intelligent Sensors, Sensor Networks and Information Processing Conference},
+  pp.~531--534, Dec. 2004.
+
+\bibitem{Agrawal1994algorithms}
+R.~Agrawal and R.~Srikant, ``{F}ast {A}lgorithms for {M}ining {A}ssociation
+  {R}ules in {L}arge {D}atabases,'' {\em Proceedings of the 20th international
+  conference on Very Large Data Bases}, pp.~478--499, Sept. 1994.
+
+\bibitem{Anwar2015}
+A.~Anwar, ``{A}n {E}ntropy-based {F}eature in {E}pileptic {S}eizure
+  {P}rediction {A}lgorithm,'' {\em IOSR-Journal of Computer Engineering},
+  Vol.~17, No.~6, pp.~47--54, Dec. 2015.
+
+\bibitem{Coan2003}
+J.~A. Coan and J.~J. Allen, ``{F}rontal {EEG} {A}symmetry and the {B}ehavioral
+  {A}ctivation and {I}nhibition {S}ystems,'' {\em Society for
+  Psychophysiological Research}, Vol.~40, No.~1, pp.~106--114, Feb. 2003.
+
+\bibitem{Mohammadi2015}
+M.~Mohammadi, F.~Al-Azab, B.~Raahemi, G.~Richards, N.~Jaworska, D.~Smith,
+  S.~de~la Salle, P.~Blier, and V.~Knott, ``{D}ata {M}ining {E}{E}{G} {S}ignals
+  in {D}epression for {T}heir {D}iagnostic {V}alue,'' {\em BMC Medical
+  Informatics and Decision Making}, Vol.~15, No.~1, pp.~1--14, Dec. 2015.
+
+\bibitem{Iosif2015}
+I.~Mporas, V.~Tsirka, E.~I. Zacharaki, M.~Koutroumanidis, M.~Richardson, and
+  V.~Megalooikonomou, ``{S}eizure {D}etection {U}sing {E}{E}{G} and {E}{C}{G}
+  {S}ignals for {C}omputer-based {M}onitoring, {A}nalysis and {M}anagement of
+  {E}pileptic {P}atients,'' {\em Expert Systems with Applications}, Vol.~42,
+  No.~6, pp.~3227--3233, April 2015.
+
+\bibitem{Parvez2014}
+M.~Z. Parvez and M.~Paul, ``{E}pileptic {S}eizure {D}etection by {A}nalyzing
+  {EEG} {S}ignals {U}sing {D}ifferent {T}ransformation {T}echniques,'' {\em
+  Neurocomputing}, Vol.~145, pp.~190--200, Dec. 2014.
+
+\bibitem{Patnaik2008}
+L.~Patnaik and O.~K. Manyam, ``{E}pileptic {EEG} {D}etection {U}sing {N}eural
+  {N}etworks and {P}ost-classification,'' {\em Computer Methods and Programs in
+  Biomedicine}, Vol.~91, No.~2, pp.~100--109, Aug. 2008.
+
+\bibitem{Pippa2016}
+E.~Pippa, E.~I. Zacharaki, I.~Mporas, V.~Tsirka, M.~P. Richardson\\,
+  M.~Koutroumanidis, and V.~Megalooikonomou, ``{I}mproving {C}lassfication of
+  {E}pileptic and {N}on-epileptic {E}{E}{G} {E}vents by {F}eature
+  {S}election,'' {\em Neurocomputing}, Vol.~171, pp.~576--585, Jan. 2016.
+
+\bibitem{Abd2010}
+A.~Subasi and M.~I. Gursoy, ``{E}{E}{G} {S}ignal {C}lassification {U}sing
+  {P}{C}{A}, {I}{C}{A}, {L}{D}{A} and {S}upport {V}ector {M}achines,'' {\em
+  Expert Systems with Applications}, Vol.~37, No.~12, pp.~8659--8666, Dec.
+  2010.
+
+\bibitem{AT2009}
+A.~Tzallas, M.~Tsipouras, and D.~Fotiadis, ``{E}pileptic {S}eizure {D}etection
+  in {E}{E}{G}s {U}sing {T}ime-{F}requency {A}nalysis,'' {\em IEEE Trans. on
+  Information Technology Biomed}, Vol.~13, No.~5, pp.~703--710, Sept. 2009.
+
+\bibitem{Pablo2006}
+P.~Valenti, E.~Cazamajou, M.~Scarpettini, A.~Aizemberg, W.~Silva, and
+  S.~Kochen, ``{A}utomatic {D}etection of {I}nterictal {S}pikes {U}sing {D}ata
+  {M}ining {M}odels,'' {\em Journal of Neuroscience Methods}, Vol.~150, No.~1,
+  pp.~105--110, Jan. 2006.
+
+\end{thebibliography}

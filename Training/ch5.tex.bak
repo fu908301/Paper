@@ -1,0 +1,19 @@
+% File name: ChapterForm.tex
+%
+% Author: your's name
+%
+% Creation: 2002/06/25
+%
+% !!!: The chapter form only can be used with the "thesis" document style!!!
+\chapter{Conclusion}
+\vspace*{30pt}
+
+The time series data is a collection of data values generally at
+uniform interval of time to reflect certain behavior of an entity.
+Moreover, identifying periodic patterns can reveal important
+observations about the behavior and future trends of the case
+representation by the time series data. In this paper, we have
+proposed the time-position method to mine the periodicity patterns.
+We have avoided to traverse some paths repeatedly in traversing the
+graph step. From our performance study, we have shown that our
+method is more efficient than the Rasheed \textsl{et al}.s approach.

@@ -1,0 +1,6 @@
+1.第一種按法：Latex => PDF Latex => DVIPS => ps2pdf
+
+如果有改到reference 前面就還要先加上 Latex 再BibTex *2 再Latex
+
+2.第二種按法：Latex => Bib => Latex =>dvi2pdf
+
